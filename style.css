@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.conteiner {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+}
+[class^="col"] {
+  padding: 0.5rem;
+  gap: 1;
+}
+.col {
+  flex: 1 0 0;
+}
+.col-auto {
+  flex: 0 0 auto;
+}
+.col-1 {
+  flex: 0 0 8.33333333%;
+}
+.col-2 {
+  border: 1px solid beige;
+  flex: 0 0 16.66666667%;
+  border-radius: 30%;
+}
+.col-3 {
+  flex: 0 0 25%;
+}
+.col-4 {
+  flex: 0 0 33.33333333%;
+}
+.col-5 {
+  flex: 0 0 41.66666667%;
+}
+.col-6 {
+  flex: 0 0 50%;
+}
+.col-7 {
+  flex: 0 0 58.33333333%;
+}
+.col-8 {
+  flex: 0 0 66.66666667%;
+}
+.col-9 {
+  flex: 0 0 75%;
+}
+.col-10 {
+  flex: 0 0 83.33333333%;
+}
+.col-11 {
+  flex: 0 0 91.33333333%;
+}
+.col-12 {
+  flex: 0 0 100%;
+}
+.exapmple-1 {
+  
+  border: 2px solid black;
+  box-shadow: 0 0 0 1 grey;
+  border-radius: 50%;
+}
